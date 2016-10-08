@@ -3,7 +3,7 @@ yum_package 'php'
 yum_package 'php-pgsql'
 
 execute 'pg' do
- command 'yum localinstall http://yum.postgresql.org/9.4/redhat/rhel-6-x86_64/pgdg-centos94-9.4-1.noarch.rpm -y'
+ command 'yum localinstall http://yum.postgresql.org/9.4/redhat/rhel-6-x86_64/pgdg-centos94-9.4-3.noarch.rpm -y'
 end
 
 yum_package 'postgresql94'
