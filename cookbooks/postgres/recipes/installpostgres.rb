@@ -1,5 +1,5 @@
 execute 'postMirror' do
-  command 'yum localinstall http://yum.postgresql.org/9.4/redhat/rhel-6.4-i386/pgdg-centos94-9.4-1.noarch.rpm -y'
+  command 'yum localinstall http://yum.postgresql.org/9.4/redhat/rhel-6.4-i386/pgdg-centos94-9.4-3.noarch.rpm -y'
 end
 
 yum_package 'postgresql94-server' do
